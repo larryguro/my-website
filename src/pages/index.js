@@ -76,8 +76,11 @@ function Home() {
             </Link>
           </div>
         </div>
+         <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </header>
       <main>
+        <div data-netlify-identity-menu></div>
+        <div data-netlify-identity-button>Login with Netlify Identity</div>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
