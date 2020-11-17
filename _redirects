@@ -1,3 +1,4 @@
-/*	    Role=user
-/docs/*   Role=user
-/docs/*	200!	Role=user
+/home              /
+/blog/my-post.php  /blog/my-post
+/news              /blog
+/cuties            https://www.petsofnetlify.com
